@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3CA49515587E4800F63458 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3CA49415587E4800F63458 /* Foundation.framework */; };
+		CE3CA49B15587E4800F63458 /* IOSSystemUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3CA49A15587E4800F63458 /* IOSSystemUtils.m */; };
+		CEE8BDC8155AF6D500A18A74 /* FlashRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE8BDC6155AF6D500A18A74 /* FlashRuntimeExtensions.h */; };
+		CEE8BDC9155AF6D500A18A74 /* IOSSystemUtilsEventMessages.h in Headers */ = {isa = PBXBuildFile; fileRef = CEE8BDC7155AF6D500A18A74 /* IOSSystemUtilsEventMessages.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE3CA49115587E4800F63458 /* libIOSSystemUtils.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIOSSystemUtils.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3CA49415587E4800F63458 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE3CA49815587E4800F63458 /* IOSSystemUtils-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSSystemUtils-Prefix.pch"; sourceTree = "<group>"; };
+		CE3CA49A15587E4800F63458 /* IOSSystemUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSSystemUtils.m; sourceTree = "<group>"; };
+		CEE8BDC6155AF6D500A18A74 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		CEE8BDC7155AF6D500A18A74 /* IOSSystemUtilsEventMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSSystemUtilsEventMessages.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3CA48E15587E4800F63458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3CA49515587E4800F63458 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3CA48615587E4800F63458 = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49615587E4800F63458 /* IOSSystemUtils */,
+				CE3CA49315587E4800F63458 /* Frameworks */,
+				CE3CA49215587E4800F63458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3CA49215587E4800F63458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49115587E4800F63458 /* libIOSSystemUtils.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3CA49315587E4800F63458 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49415587E4800F63458 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3CA49615587E4800F63458 /* IOSSystemUtils */ = {
+			isa = PBXGroup;
+			children = (
+				CEE8BDC6155AF6D500A18A74 /* FlashRuntimeExtensions.h */,
+				CEE8BDC7155AF6D500A18A74 /* IOSSystemUtilsEventMessages.h */,
+				CE3CA49A15587E4800F63458 /* IOSSystemUtils.m */,
+				CE3CA49715587E4800F63458 /* Supporting Files */,
+			);
+			path = IOSSystemUtils;
+			sourceTree = "<group>";
+		};
+		CE3CA49715587E4800F63458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3CA49815587E4800F63458 /* IOSSystemUtils-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CE3CA48F15587E4800F63458 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE8BDC8155AF6D500A18A74 /* FlashRuntimeExtensions.h in Headers */,
+				CEE8BDC9155AF6D500A18A74 /* IOSSystemUtilsEventMessages.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CE3CA49015587E4800F63458 /* IOSSystemUtils */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3CA49E15587E4800F63458 /* Build configuration list for PBXNativeTarget "IOSSystemUtils" */;
+			buildPhases = (
+				CE3CA48D15587E4800F63458 /* Sources */,
+				CE3CA48E15587E4800F63458 /* Frameworks */,
+				CE3CA48F15587E4800F63458 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSSystemUtils;
+			productName = IOSSystemUtils;
+			productReference = CE3CA49115587E4800F63458 /* libIOSSystemUtils.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3CA48815587E4800F63458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = xperiments;
+			};
+			buildConfigurationList = CE3CA48B15587E4800F63458 /* Build configuration list for PBXProject "IOSSystemUtils" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE3CA48615587E4800F63458;
+			productRefGroup = CE3CA49215587E4800F63458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3CA49015587E4800F63458 /* IOSSystemUtils */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3CA48D15587E4800F63458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3CA49B15587E4800F63458 /* IOSSystemUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE3CA49C15587E4800F63458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE3CA49D15587E4800F63458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3CA49F15587E4800F63458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IOSSystemUtils.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSSystemUtils/IOSSystemUtils-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CE3CA4A015587E4800F63458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/IOSSystemUtils.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IOSSystemUtils/IOSSystemUtils-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3CA48B15587E4800F63458 /* Build configuration list for PBXProject "IOSSystemUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3CA49C15587E4800F63458 /* Debug */,
+				CE3CA49D15587E4800F63458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3CA49E15587E4800F63458 /* Build configuration list for PBXNativeTarget "IOSSystemUtils" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3CA49F15587E4800F63458 /* Debug */,
+				CE3CA4A015587E4800F63458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3CA48815587E4800F63458 /* Project object */;
+}
